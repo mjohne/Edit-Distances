@@ -5,7 +5,7 @@ partial class MainForm
     /// <summary>
     ///  Required designer variable.
     /// </summary>
-    private System.ComponentModel.IContainer components = null;
+    private System.ComponentModel.IContainer components = null!;
 
     /// <summary>
     ///  Clean up any resources being used.
@@ -49,6 +49,7 @@ partial class MainForm
         // textBoxInput1
         // 
         textBoxInput1.Location = new Point(24, 42);
+        textBoxInput1.MaxLength = 512;
         textBoxInput1.Name = "textBoxInput1";
         textBoxInput1.Size = new Size(420, 23);
         textBoxInput1.TabIndex = 1;
@@ -66,6 +67,7 @@ partial class MainForm
         // textBoxInput2
         // 
         textBoxInput2.Location = new Point(24, 100);
+        textBoxInput2.MaxLength = 512;
         textBoxInput2.Name = "textBoxInput2";
         textBoxInput2.Size = new Size(420, 23);
         textBoxInput2.TabIndex = 3;

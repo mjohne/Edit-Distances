@@ -2,15 +2,28 @@ namespace EditDistancesApp;
 
 public partial class MainForm : Form
 {
+    private readonly System.Windows.Forms.Timer updateTimer;
+
     public MainForm()
     {
         InitializeComponent();
+        components ??= new System.ComponentModel.Container();
+        updateTimer = new System.Windows.Forms.Timer(components)
+        {
+            Interval = 250
+        };
+        updateTimer.Tick += (_, _) =>
+        {
+            updateTimer.Stop();
+            UpdateDistances();
+        };
         UpdateDistances();
     }
 
     private void InputTextChanged(object? sender, EventArgs e)
     {
-        UpdateDistances();
+        updateTimer.Stop();
+        updateTimer.Start();
     }
 
     private void UpdateDistances()
