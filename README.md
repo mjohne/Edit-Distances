@@ -2,10 +2,10 @@
 
 Computing the longest common subsequence (LCS), the Levenshtein distance and the Damerau-Levenshtein distance.
 
-WinForms-Anwendung zur Berechnung von:
+WinForms application for calculating:
 
-- Longest Common Subsequence (LCS)
-- Levenshtein-Distanz
-- Damerau-Levenshtein-Distanz
+- Longest common subsequence (LCS)
+- Levenshtein distance
+- Damerau-Levenshtein distance
 
-Die Oberfläche enthält zwei Eingabefelder für Zeichenketten und zeigt alle drei Distanzen direkt beim Tippen an.
+The interface contains two input fields for strings and displays all three distances directly as you type.
