@@ -1,6 +1,6 @@
 namespace EditDistancesApp;
 
-partial class Form1
+partial class MainForm
 {
     /// <summary>
     ///  Required designer variable.
@@ -98,7 +98,7 @@ partial class Form1
         labelDamerauLevenshtein.TabIndex = 6;
         labelDamerauLevenshtein.Text = "Damerau-Levenshtein: 0";
         // 
-        // Form1
+        // MainForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
@@ -112,7 +112,7 @@ partial class Form1
         Controls.Add(labelInput1);
         FormBorderStyle = FormBorderStyle.FixedDialog;
         MaximizeBox = false;
-        Name = "Form1";
+        Name = "MainForm";
         StartPosition = FormStartPosition.CenterScreen;
         Text = "Edit-Distanzen";
         ResumeLayout(false);
