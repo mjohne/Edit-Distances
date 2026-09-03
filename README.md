@@ -9,3 +9,5 @@ WinForms application for calculating:
 - Damerau-Levenshtein distance
 
 The interface contains two input fields for strings and displays all three distances directly as you type.
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Edit-Distances)
